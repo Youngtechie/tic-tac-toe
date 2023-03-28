@@ -1,24 +1,25 @@
 .GameHeader{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 10%;
-    border: 3px dashed black;
     display: flex;
     flex-flow: wrap row;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-between;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    box-shadow : inset 0 0 20px 5px #414141, 0 0 20px 5px #414141;
     color: black;
-    text-shadow: 3px 3px 5px #fff, -3px -3px 5px #fff;
     font-weight: bolder;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 20px;
 }
 .theme{
     position: relative;
     width: 40px;
     height: 20px;
-    border: 2px solid black;
+    border: 3px solid black;
     display: flex;
     align-items: center;
     border-radius: 20px;

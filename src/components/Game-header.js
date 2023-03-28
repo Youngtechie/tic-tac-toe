@@ -26,6 +26,7 @@ function GameHeader() {
     document.querySelector('.GameHeader').style.color = `${colour3}`
     document.querySelector('.GameHeader').style.textShadow = `3px 3px 5px ${colour4}, -3px -3px 5px ${colour4}`
     document.querySelector('.Board').style.color = `${colour3}`
+    document.querySelector(".theme").style.border = `3px solid ${colour}`
   }
   return (
     <section className='GameHeader'>
