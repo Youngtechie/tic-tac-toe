@@ -1,4 +1,4 @@
-import React, { createElement } from 'react'
+import React from 'react'
 import "../styles/GameHeader.css"
 import { useState } from 'react'
 
