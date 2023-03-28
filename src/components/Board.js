@@ -133,7 +133,6 @@ export default function Board() {
           </section>
         )}
 
-
         {click ? (
           <section className="squares" id="2" onClick={() => handleClick(2)}>
             {squares[2]}
