@@ -1,16 +1,14 @@
-/* eslint-disable no-loop-func */
 import React from "react";
 import CheckWinner from "./CheckWinner";
 import { useState, useEffect } from "react";
 import ComputerPattern from "./ComputerPattern";
-import GameHeader from "./Game-header";
 
 export default function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null));
-  const [isXNext, setIsXNext] = useState(false);
-  const [randomNumbers, setRandomNumbers] = useState([
+  // const [isXNext, setIsXNext] = useState(false);
+  const randomNumbers  = [
     0, 1, 2, 3, 4, 5, 6, 7, 8,
-  ]);
+  ];
   let random = 4;
   let timeId;
   const [click, setClick] = useState(true);
