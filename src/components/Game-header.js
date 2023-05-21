@@ -19,14 +19,13 @@ function GameHeader() {
     colour4 === '#414141' ? setColour4((e)=> e = '#fff') : setColour4((e)=> e = '#414141')
 
     document.body.style.background = colour2
+    document.body.style.color = colour
     document.querySelector('.Board').style.boxShadow = `inset 0 0 10px 3px ${colour3}, 0 0 10px 3px ${colour3}`
     document.querySelector('.container').style.boxShadow = `inset 0 10px 10px ${colour3}, 0 0 10px 15px ${colour3}`
-    document.querySelector('.GameSidebar').style.boxShadow = `inset 0 0 20px 5px ${colour3}, 0 0 20px 5px ${colour3}`
     document.querySelector('.Board').style.boxShadow = `inset 0 0 20px 5px ${colour3}, 0 0 20px 5px ${colour3}`
     document.querySelector('.GameHeader').style.color = `${colour3}`
     document.querySelector('.GameHeader').style.textShadow = `3px 3px 5px ${colour4}, -3px -3px 5px ${colour4}`
-    document.querySelector('.Board').style.color = `${colour3}`
-    document.querySelector(".theme").style.border = `3px solid ${colour}`
+    document.querySelector('.theme').style.border = `2px solid ${colour}`
   }
   return (
     <section className='GameHeader'>
