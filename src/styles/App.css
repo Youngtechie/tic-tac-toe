@@ -25,12 +25,22 @@
     width: 300px;
     height: 50px;
     position: absolute;
-    background-color: aqua;
     justify-self: center;
     bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#btns button{
+    height: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 900;
+}
+
+#btns button:hover{
+    background-color: blue;
+    color: #fff;
 }
 #root{
     display: grid;
